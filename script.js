@@ -49,7 +49,6 @@ form.addEventListener("submit", (event) => {
 
       let texte = document.createElement("p");
       p = document.document.getElementById("message");
-      p = document.querySelector("input");
       let newContent1 = document.createTextNode(input.value);
       newValue.innerHTML = "";
       newValue.appendChild(newContent1);
